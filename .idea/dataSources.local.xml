@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="MySQL - ssmbuild@localhost" uuid="b3ed732d-7ad9-437c-a71d-ec5dd6a2a98d">
+      <secret-storage>master_key</secret-storage>
+      <user-name>root</user-name>
+      <schema-pattern>ssmbuild.*</schema-pattern>
+      <default-schemas>ssmbuild.*</default-schemas>
+    </data-source>
+  </component>
+</project>

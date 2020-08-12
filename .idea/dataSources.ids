@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source name="MySQL - ssmbuild@localhost" uuid="b3ed732d-7ad9-437c-a71d-ec5dd6a2a98d">
+    <database-info product="MySQL" version="5.5.56" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.46 ( Revision: 9cc87a48e75c2d2e87c1a293b2862ce651cb256e )">
+      <extra-name-characters>#@</extra-name-characters>
+      <identifier-quote-string>`</identifier-quote-string>
+    </database-info>
+    <case-sensitivity plain-identifiers="lower" quoted-identifiers="lower"/>
+    <database-model serializer="dbm" rdbms="MYSQL" format-version="2.4">
+      <schema id="1" name="ssmbuild"/>
+      <table id="2" parent="1" name="books"/>
+      <column id="3" parent="2" name="bookID">
+        <comment>书id</comment>
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="4" parent="2" name="bookName">
+        <comment>书名</comment>
+        <mandatory>1</mandatory>
+        <data-type>varchar(100)</data-type>
+      </column>
+      <column id="5" parent="2" name="bookCounts">
+        <comment>数量</comment>
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="6" parent="2" name="detail">
+        <comment>描述</comment>
+        <mandatory>1</mandatory>
+        <data-type>varchar(200)</data-type>
+      </column>
+      <index id="7" parent="2" name="bookID">
+        <columns>bookID</columns>
+        <desc-columns></desc-columns>
+      </index>
+    </database-model>
+  </data-source>
+</component>
